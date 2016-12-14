@@ -21,5 +21,3 @@ KD_LOGIN
 
 KD_PASSWORD
 
-
-

@@ -2,8 +2,6 @@
 
 $whcms_ip = getenv('WHMCS_IP');
 
-if (!$passwd && !$smtp_user && !$ingress) die;
-
 $conf = '/var/opt/persistent/configuration.php';
 if (!file_exists($conf)) die;
 require_once $conf;
